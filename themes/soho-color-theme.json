@@ -17,6 +17,7 @@
 		"editorGroup.dropBackground": "#C9D0D988",
 		"editorGroupHeader.tabsBackground": "#d6d6d6",
 		"editorLineNumber.foreground": "#9DA39A80",
+		"editorIndentGuide.background": "#9DA39A60",
 		"editorWhitespace.foreground": "#AAAAAA",
 		"errorForeground": "#f1897f",
 		"extensionButton.prominentBackground": "#529600",
@@ -32,8 +33,8 @@
 		"inputValidation.warningBorder": "#ffe055",
 		"list.activeSelectionBackground": "#87a3b560",
 		"list.activeSelectionForeground": "#474747",
-		"list.focusBackground": "#b9c9de",
-		"list.hoverBackground": "#87a3b570",
+		"list.focusBackground": "#87adde85",
+		"list.hoverBackground": "#87adde40",
 		"list.inactiveSelectionBackground": "#87a3b52f",
 		"list.highlightForeground": "#9769dc",
 		"notification.background": "#442e66",
@@ -49,6 +50,7 @@
 		"progressBar.background": "#568097",
 		"selection.background": "#C9D0D9",
 		"sideBar.background": "#e1e1e1",
+		"sideBar.foreground": "#5f5f5f",
 		"sideBar.border": "#c2c6c1",
 		"sideBarSectionHeader.background": "#c9c9c980",
 		"statusBar.background": "#567297",
@@ -149,7 +151,7 @@
 			"name": "Functions",
 			"scope": "entity.name.function, meta.require, support.function.any-method, support.function",
 			"settings": {
-				"foreground": "#B03060"
+				"foreground": "#b66283"
 			}
 		},
 		{
@@ -192,7 +194,7 @@
 			"name": "Keyword Control",
 			"scope": "keyword.control",
 			"settings": {
-				"foreground": "#CD3700"
+				"foreground": "#46874f"
 			}
 		},
 		{
@@ -206,7 +208,7 @@
 			"name": "Storage Type",
 			"scope": "storage.type",
 			"settings": {
-				"foreground": "#e1a170"
+				"foreground": "#a55b32"
 			}
 		},
 		{
@@ -227,14 +229,14 @@
 			"name": "Support Console",
 			"scope": "support.class.console.js",
 			"settings": {
-				"foreground": "#FF8843"
+				"foreground": "#ce1d3b"
 			}
 		},
 		{
 			"name": "Support Function Console",
 			"scope": "support.function.console.js",
 			"settings": {
-				"foreground": "#C7AF3F"
+				"foreground": "#c0a012"
 			}
 		},
 		{
@@ -248,21 +250,21 @@
 			"name": "Variables",
 			"scope": "variable, variable.other.readwrite.js, punctuation.definition.variable.php, variable.other, support.variable",
 			"settings": {
-				"foreground": "#009ACD"
+				"foreground": "#1d7c99"
 			}
 		},
 		{
 			"name": "_this",
 			"scope": "variable.other.object.js",
 			"settings": {
-				"foreground": "#AEC199"
+				"foreground": "#b37db3"
 			}
 		},
 		{
 			"name": "Variable Parameter",
 			"scope": "variable.parameter.js",
 			"settings": {
-				"foreground": "#B5919F",
+				"foreground": "#91355a",
 				"fontStyle": "italic"
 			}
 		},
@@ -276,14 +278,14 @@
 				"meta.object-literal.key.ts string.quoted.double.ts"
 			],
 			"settings": {
-				"foreground": "#AC9E8C"
+				"foreground": "#826b52"
 			}
 		},
 		{
 			"name": "Function Storage Block",
-			"scope": "function.storage.type.block.js",
+			"scope": "function.storage.type.block.js, storage.type.function",
 			"settings": {
-				"foreground": "#C7AF3F"
+				"foreground": "#ca8f0f"
 			}
 		},
 
@@ -299,7 +301,7 @@
 			"name": "ts keyword control import export",
 			"scope": "keyword.control.export,   keyword.control.flow,   keyword.control.import,   keyword.control.from",
 			"settings": {
-				"foreground": "#c5a46f"
+				"foreground": "#ce7349"
 			}
 		},
 
@@ -1043,14 +1045,14 @@
 				"punctuation.definition.string.end.ts"
 			],
 			"settings": {
-				"foreground": "#949fa2"
+				"foreground": "#869497"
 			}
 		},
 		{
 			"name": "Logical Operator",
 			"scope": "  keyword.operator.comparison,   keyword.operator.logical,  keyword.operator.ternary",
 			"settings": {
-				"foreground": "#CCD2BE"
+				"foreground": "#668187"
 			}
 		},
 		{
