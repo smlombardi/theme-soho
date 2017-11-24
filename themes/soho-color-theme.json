@@ -27,6 +27,7 @@
 		"editor.wordHighlightStrongBackground": "#8c924d36",
 		"editorWidget.background": "#d6d6d6",
 		"editorWidget.border": "#c2c6c1",
+		"editorSuggestWidget.border": "#919191",
 		"errorForeground": "#f1897f",
 		"editorError.foreground": "#f1897f",
 		"extensionButton.prominentBackground": "#4e8026",
@@ -198,14 +199,14 @@
 			"name": "Keywords",
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#9FB3C2"
+				"foreground": "#4e86ae"
 			}
 		},
 		{
 			"name": "Methods",
 			"scope": "keyword.other.special-method",
 			"settings": {
-				"foreground": "#8fa1b3"
+				"foreground": "#2d547a"
 			}
 		},
 		{
@@ -798,22 +799,7 @@
 				"foreground": "#768DA2b3"
 			}
 		},
-		{
-			"name": "PHP delimiters",
-			"scope": [
-				"punctuation.section.embedded.begin.php",
-				"punctuation.section.embedded.end.php",
-				"punctuation.section.embedded.begin.metatag.php",
-				"punctuation.section.embedded.end.metatag.php",
-				"text.html.php meta.embedded.line.php punctuation.section.embedded.end.metatag.php source.php",
-				"text.html.php meta.embedded.block.php punctuation.section.embedded.end.metatag.php source.php",
-				"text.html.php meta.embedded.block.php punctuation.section.embedded.end.php source.php",
-				"text.html.php meta.embedded.line.php punctuation.section.embedded.end.php source.php"
-			],
-			"settings": {
-				"foreground": "#af7263"
-			}
-		},
+
 		{
 			"name": "Regular Expressions",
 			"scope": "string.regexp, string.regexp.js keyword.other.js",
@@ -857,24 +843,40 @@
 			}
 		},
 		{
-			"name": "PHPdoc Comments",
-			"scope": "meta.block.embedded.php.source.comment.documentation.phpdoc",
+			"name": "PHP delimiters",
+			"scope": [
+				"punctuation.section.embedded.begin.php",
+				"punctuation.section.embedded.end.php",
+				"punctuation.section.embedded.begin.metatag.php",
+				"punctuation.section.embedded.end.metatag.php",
+				"text.html.php meta.embedded.line.php punctuation.section.embedded.end.metatag.php source.php",
+				"text.html.php meta.embedded.block.php punctuation.section.embedded.end.metatag.php source.php",
+				"text.html.php meta.embedded.block.php punctuation.section.embedded.end.php source.php",
+				"text.html.php meta.embedded.line.php punctuation.section.embedded.end.php source.php"
+			],
 			"settings": {
-				"foreground": "#ACB5B5"
+				"foreground": "#c93b1b"
+			}
+		},
+		{
+			"name": "PHPdoc Comments",
+			"scope": "meta.block.embedded.php.source.comment.documentation.phpdoc, comment.block.html meta.embedded.line.php punctuation.section.embedded.begin.php, comment.block.html meta.embedded.line.php punctuation.section.embedded.end.php, comment.block.html meta.embedded.line.php punctuation.section.embedded.end.php source.php, comment.block.documentation.phpdoc.php keyword.other.phpdoc.php",
+			"settings": {
+				"foreground": "#9aa2a0"
 			}
 		},
 		{
 			"name": "PHP Function",
 			"scope": "meta.function-call.php",
 			"settings": {
-				"foreground": "#C0A3BB"
+				"foreground": "#824477"
 			}
 		},
 		{
 			"name": "Escape Characters",
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#96b5b4"
+				"foreground": "#599492"
 			}
 		},
 		{
@@ -884,18 +886,12 @@
 				"foreground": "#996c6c"
 			}
 		},
-		{
-			"name": "PHP Control Keywords",
-			"scope": "keyword.control.php",
-			"settings": {
-				"foreground": "#E9D38D"
-			}
-		},
+
 		{
 			"name": "PHP Echo",
 			"scope": "support.function.construct.output.php",
 			"settings": {
-				"foreground": "#E9D38D"
+				"foreground": "#bb8d01"
 			}
 		},
 		{
@@ -917,7 +913,7 @@
 			"scope": "entity.name.section.markdown",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#BF93B5"
+				"foreground": "#A16893"
 			}
 		},
 		{
@@ -925,7 +921,7 @@
 			"scope": "punctuation.definition.heading.markdown",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#A16893"
+				"foreground": "#A16893b3"
 			}
 		},
 		{
@@ -933,7 +929,7 @@
 			"scope": "markup.bold",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#CDA479"
+				"foreground": "#996b3d"
 			}
 		},
 		{
@@ -941,7 +937,7 @@
 			"scope": "punctuation.definition.bold.markdown",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#AF8C67"
+				"foreground": "#996b3db3"
 			}
 		},
 		{
@@ -957,7 +953,7 @@
 			"scope": "markup.italic",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#B4B378"
+				"foreground": "#b5b033"
 			}
 		},
 		{
@@ -965,7 +961,7 @@
 			"scope": "punctuation.definition.italic.markdown",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#959451"
+				"foreground": "#b5b033b3"
 			}
 		},
 		{
@@ -976,7 +972,7 @@
 				"markup.inline.raw.string.markdown"
 			],
 			"settings": {
-				"foreground": "#C6DD88"
+				"foreground": "#94b145"
 			}
 		},
 		{
@@ -986,7 +982,7 @@
 				"punctuation.definition.raw.markdown"
 			],
 			"settings": {
-				"foreground": "#A5BF5E"
+				"foreground": "#6a8520"
 			}
 		},
 		{
@@ -1014,7 +1010,7 @@
 			"name": "Markdown List Bullets",
 			"scope": "beginning.punctuation.definition.list.markdown",
 			"settings": {
-				"foreground": "#F0E1B3"
+				"foreground": "#c9ad59"
 			}
 		},
 		{
