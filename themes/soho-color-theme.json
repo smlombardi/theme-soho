@@ -11,7 +11,7 @@
 		"editor.foreground": "#363636",
 		"editor.findMatchBackground": "#bfad9c",
 		"editor.findMatchHighlightBackground": "#edd2c9",
-		"editor.lineHighlightBackground": "#CBDC2F20",
+		"editor.lineHighlightBackground": "#8c924d1a",
 		"editor.selectionBackground": "#C9D0D9",
 		"editorCursor.foreground": "#202020",
 		"editorGroup.dropBackground": "#C9D0D988",
@@ -216,7 +216,7 @@
 			"name": "Strings",
 			"scope": "  string, string.quoted.double, string.quoted.single, string.quoted.double.json, string.quoted.single.css,  string.quoted.single.js, string.quoted.single.scss, constant.character.escape, constant.character.escape.css,   constant.character.escape.scss,  constant.other.symbol, invalid.illegal.bad-ampersand.html",
 			"settings": {
-				"foreground": "#578026"
+				"foreground": "#506336"
 			}
 		},
 		{
@@ -376,14 +376,14 @@
 			"name": "CSS Class Selector",
 			"scope": "meta.selector, entity.other.attribute-name.class.css,   entity.other.attribute-name.parent-selector-suffix.scss",
 			"settings": {
-				"foreground": "#94383d"
+				"foreground": "#a53a3f"
 			}
 		},
 		{
 			"name": "CSS Class Selector Punctuation",
 			"scope": "entity.scss.meta.property-list.punctuation.other.attribute-name.class.css.definition, entity.punctuation.other.attribute-name.class.css.definition, punctuation.definition.entity.css, meta.selector.css",
 			"settings": {
-				"foreground": "#94383db3"
+				"foreground": "#c93b41"
 			}
 		},
 		{
@@ -425,7 +425,7 @@
 			"name": "CSS property value",
 			"scope": "meta.property-group support.constant.property-value.css, meta.property-list.css meta.property-value.css, meta.property-value support.constant.property-value.css, meta.property-group support.constant.property-value.scss, meta.property-group support.constant.property-value.sass, meta.property-value support.constant.property-value.scss, meta.property-value support.constant.property-value.sass, variable.parameter.misc.css, parameter.less.data-uri comment markup.raw, source.less meta.property-value.css, meta.property-value.scss, support.constant.property-value.css, string.quoted.double.attribute-value.scss",
 			"settings": {
-				"foreground": "#48701e"
+				"foreground": "#47523a"
 			}
 		},
 		{
@@ -437,16 +437,16 @@
 		},
 		{
 			"name": "CSS colors",
-			"scope": "constant.numeric.color.hex-value.css punctuation.definition.constant.css,constant.numeric.color.hex-value.css, constant.other.color, constant.other.color.rgb-value, constant.other.rgb-value.css, support.constant.named-color",
+			"scope": "constant.numeric.color.hex-value.css punctuation.definition.constant.css,constant.numeric.color.hex-value.css, constant.other.color, constant.other.color.rgb-value, constant.other.rgb-value.css, support.constant.named-color, constant.other.color.rgb-value.hex.css punctuation.definition.constant.css",
 			"settings": {
-				"foreground": "#48701e"
+				"foreground": "#47523a"
 			}
 		},
 		{
 			"name": "CSS Font Names",
 			"scope": "support.constant.font-name.scss, support.constant.font-name.css",
 			"settings": {
-				"foreground": "#97a860"
+				"foreground": "#47523a"
 			}
 		},
 		{
@@ -552,14 +552,21 @@
 			"name": "SCSS Function",
 			"scope": "support.function.misc.scss, keyword.control.at-rule.function.scss, entity.name.function.scss, keyword.control.at-rule.function.scss",
 			"settings": {
-				"foreground": "#1a9465"
+				"foreground": "#207da8"
+			}
+		},
+		{
+			"name": "SCSS @Function",
+			"scope": "keyword.control.at-rule.function.scss",
+			"settings": {
+				"foreground": "#005aae"
 			}
 		},
 		{
 			"name": "SCSS @Function at-sign",
-			"scope": "keyword.control.at-rule.function.scss, keyword.control.at-rule.function.scss punctuation.definition",
+			"scope": "keyword.control.at-rule.function.scss punctuation.definition",
 			"settings": {
-				"foreground": "#1a9465b3"
+				"foreground": "#005aaeb3"
 			}
 		},
 		{
@@ -599,21 +606,21 @@
 		},
 		{
 			"name": "SCSS @Mixin",
-			"scope": "keyword.control.at-rule.mixin.scss, meta.at-rule.include.scss entity.name.function.scss",
+			"scope": "keyword.control.at-rule.mixin.scss, meta.at-rule.include.scss entity.name.function.scss,keyword.control.at-rule.include",
 			"settings": {
 				"foreground": "#c47070"
 			}
 		},
 		{
 			"name": "SCSS @Mixin at-sign",
-			"scope": "keyword.control.at-rule.mixin.scss punctuation.definition",
+			"scope": "keyword.control.at-rule.mixin.scss punctuation.definition, keyword.control.at-rule.include punctuation.definition",
 			"settings": {
 				"foreground": "#c47070b3"
 			}
 		},
 		{
 			"name": "SCSS @Mixin Name",
-			"scope": "meta.at-rule.mixin.scss entity.name.function.scss",
+			"scope": "meta.at-rule.mixin.scss entity.name.function.scss, meta.at-rule.include.scss entity.name.function.scss",
 			"settings": {
 				"foreground": "#964242"
 			}
@@ -633,31 +640,17 @@
 			}
 		},
 		{
-			"name": "SCSS @Include",
-			"scope": "keyword.control.at-rule.include",
-			"settings": {
-				"foreground": "#c47070"
-			}
-		},
-		{
-			"name": "SCSS @Include at-sign",
-			"scope": "keyword.control.at-rule.include punctuation.definition",
-			"settings": {
-				"foreground": "#c47070b3"
-			}
-		},
-		{
 			"name": "SCSS @FontFace",
 			"scope": "meta.at-rule.fontface.scss keyword.control.at-rule.fontface.scss",
 			"settings": {
-				"foreground": "#e78484"
+				"foreground": "#AA6161"
 			}
 		},
 		{
 			"name": "SCSS @FontFace at-sign",
 			"scope": "keyword.control.at-rule.fontface.scss punctuation.definition.keyword.scss",
 			"settings": {
-				"foreground": "#AA6161"
+				"foreground": "#AA6161b3"
 			}
 		},
 		{
@@ -706,14 +699,14 @@
 			"name": "SCSS at-Rule Content",
 			"scope": "keyword.control.content.scss",
 			"settings": {
-				"foreground": "#b3c770"
+				"foreground": "#869653"
 			}
 		},
 		{
 			"name": "SCSS at-Rule Content at-sign",
 			"scope": "keyword.control.content.scss punctuation.definition",
 			"settings": {
-				"foreground": "#97A95F"
+				"foreground": "#869653b3"
 			}
 		},
 		{
@@ -734,7 +727,7 @@
 			"name": "SCSS include argument",
 			"scope": "meta.property-list.scss meta.at-rule.include.scss",
 			"settings": {
-				"foreground": "#e1e2de"
+				"foreground": "#c08500"
 			}
 		},
 		{
@@ -755,14 +748,22 @@
 			"name": "SCSS  Variable",
 			"scope": "variable.scss",
 			"settings": {
-				"foreground": "#977785"
+				"foreground": "#28407c",
+				"fontStyle": "italic"
 			}
 		},
 		{
-			"name": "SCSS Extend",
-			"scope": "entity.other.attribute-name.placeholder.scss,entity.other.attribute-name.placeholder.scss punctuation.definition.entity.scss",
+			"name": "SCSS @Extend",
+			"scope": "entity.other.attribute-name.placeholder.scss,entity.other.attribute-name.placeholder.scss punctuation.definition.entity.scss, keyword.control.at-rule.extend.scss",
 			"settings": {
 				"foreground": "#768DA2"
+			}
+		},
+		{
+			"name": "SCSS @Extend at-sign",
+			"scope": "keyword.control.at-rule.extend punctuation.definition",
+			"settings": {
+				"foreground": "#768DA2b3"
 			}
 		},
 		{
