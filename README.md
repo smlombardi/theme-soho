@@ -1,11 +1,24 @@
 # Soho
 A light syntax/workbench theme for [Visual Studio Code](https://code.visualstudio.com).
 
-Loosely based on my Atom theme "[Kuroir Atom](https://atom.io/themes/kuroir-atom)", which was inspired by the old Textmate theme. Also intended to be a Light variant of my existing "[Slime](https://marketplace.visualstudio.com/items?itemName=smlombardi.slime)" theme for VS Code.
-
 Optimized for SCSS, HTML, JS, TS, Markdown, and PHP files.
 
-Font used in screenshots is [IBM Plex Mono](https://github.com/IBM/type).
+Font used in screenshots is [Fira Code Retina](https://github.com/tonsky/FiraCode).
+
+If you prefer italic comments, just add this block to your user settings:
+
+```json
+"editor.tokenColorCustomizations": {
+  "textMateRules": [
+    {
+      "scope": "comment, comment.block.html",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    }
+  ]
+},
+```
 
 ### Workbench
 ![Screenshot](https://github.com/smlombardi/theme-soho/raw/master/screenshots/screenshot.png)
