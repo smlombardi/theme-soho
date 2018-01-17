@@ -527,14 +527,14 @@
 			"name": "CSS Numbers",
 			"scope": "meta.at-rule.constant.numeric.media, meta.property-list.property-value.constant.numeric, property-list.scss.constant.numeric.variable.set, constant.numeric.scss, constant.numeric.css",
 			"settings": {
-				"foreground": "#7658b1"
+				"foreground": "#7c5cbd"
 			}
 		},
 		{
 			"name": "CSS units",
 			"scope": "meta.at-rule.keyword.other.unit.media, keyword.other.unit",
 			"settings": {
-				"foreground": "#c59c43"
+				"foreground": "#a15cbd"
 			}
 		},
 		{
