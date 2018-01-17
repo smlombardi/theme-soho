@@ -7,7 +7,7 @@
 		"badge.background":                          "#567d97aa",
 		"button.background":                         "#568097",
 		"dropdown.background":                       "#F5F5F5",
-		"editor.background":                         "#e9e9e9",
+		"editor.background":                         "#f0f0f0",
 		"editor.findMatchBackground":                "#9cb4bfc2",
 		"editor.findMatchHighlightBackground":       "#b2bfc586",
 		"editor.foreground":                         "#363636",
@@ -21,10 +21,10 @@
 		"editorGroup.dropBackground":                "#c9d2d9",
 		"editorGroupHeader.tabsBackground":          "#d6d6d6",
 		"editorGroupHeader.tabsBorder":              "#c2c6c1",
-		"editorGutter.background":                   "#d1d1d133",
+		"editorGutter.background":                   "#e9e9e9",
 		"editorGutter.modifiedBackground":           "#568097cc",
-		"editorIndentGuide.background":              "#9aa0a360",
-		"editorLineNumber.foreground":               "#a0a0a0",
+		"editorIndentGuide.background":              "#dcdcdc",
+		"editorLineNumber.foreground":               "#a3a3a3",
 		"editorLink.activeForeground":               "#50709b",
 		"editorOverviewRuler.border":                "#c2c6c1",
 		"editorSuggestWidget.border":                "#919191",
@@ -231,6 +231,13 @@
 			}
 		},
 		{
+			"name": "Keyword control",
+			"scope": "keyword.control.export, keyword.control.import, keyword.control.from",
+			"settings": {
+				"foreground": "#b8521b"
+			}
+		},
+		{
 			"name": "Storage",
 			"scope": "storage",
 			"settings": {
@@ -241,21 +248,21 @@
 			"name": "Storage Type",
 			"scope": "storage.type",
 			"settings": {
-				"foreground": "#b38345"
-			}
-		},
-		{
-			"name": "Storage Type Arrow Function",
-			"scope": "storage.type.function.arrow",
-			"settings": {
-				"foreground": "#b4450d"
+				"foreground": "#855e2c"
 			}
 		},
 		{
 			"name": "Storage modifier",
 			"scope": "storage.modifier",
 			"settings": {
-				"foreground": "#886807"
+				"foreground": "#618a71"
+			}
+		},
+		{
+			"name": "Storage Type Arrow Function",
+			"scope": "storage.type.function.arrow",
+			"settings": {
+				"foreground": "#b53c04"
 			}
 		},
 		{
@@ -330,7 +337,7 @@
 				"meta.object-literal.key.ts string.quoted.double.ts"
 			],
 			"settings": {
-				"foreground": "#a07d47"
+				"foreground": "#478e9e"
 			}
 		},
 		{
@@ -345,13 +352,6 @@
 			"scope": "support.variable.object.process.js",
 			"settings": {
 				"foreground": "#3c9477"
-			}
-		},
-		{
-			"name": "Keyword control import export",
-			"scope": "keyword.control.export,   keyword.control.flow,   keyword.control.import,   keyword.control.from",
-			"settings": {
-				"foreground": "#ac7943"
 			}
 		},
 		{
@@ -410,6 +410,7 @@
 				"foreground": "#368a3a"
 			}
 		},
+
 		{
 			"name": "CSS",
 			"scope": "  source.css",
@@ -973,7 +974,7 @@
 			"name": "Logical Operator",
 			"scope": "  keyword.operator.comparison,   keyword.operator.logical,  keyword.operator.ternary",
 			"settings": {
-				"foreground": "#668187"
+				"foreground": "#bd5f21"
 			}
 		},
 		{
